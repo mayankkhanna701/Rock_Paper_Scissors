@@ -1,0 +1,57 @@
+#rcs{
+    background-color: #081b31;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: -10px;
+    padding: 10px;
+    height: auto;
+}
+#pyc{
+    background-color: #081b31;
+    color: white;
+    display: inline;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+body{
+    text-align: center;
+}
+.choices img{
+    width: 200 px;
+    height: 200px;
+}
+body{
+    background-color: cyan;
+}
+.choices{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.image{
+    display: inline;
+    align-self: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.choices img:hover{
+    opacity: 0.5;
+}
+.score{
+    display: flex;
+    justify-content: center; 
+}
+.userscore,.compscore{
+    display: inline;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+
+}
+#Rock,#Paper,#Scissors{
+    background-color: cyan;
+    border: 0px;
+}
