@@ -55,3 +55,12 @@ body{
     background-color: cyan;
     border: 0px;
 }
+#pyc.win{
+    background-color: limegreen;
+    animation: bounce 0.45s;
+}
+
+#pyc.lose{
+    background-color: red;
+    animation: bounce 0.45s;
+}

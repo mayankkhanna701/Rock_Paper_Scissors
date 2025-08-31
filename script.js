@@ -16,15 +16,19 @@ function getcompchoice(){
     }
 }
 function playround(userchoice,compchoice){
+    let pyc = document.getElementById("pyc");
+    pyc.classList.remove("win","lose");
     if(userchoice===compchoice){
         return "It was a draw You both chose "+compchoice;
     }
     if(userchoice=="Rock"&&compchoice=="Scissors"||userchoice=="Paper"&&compchoice=="Rock"||userchoice=="Scissors"&&compchoice=="Paper")
     {
+        pyc.classList.add("win");
         userscore++;
         return "YOU WON!! "+userchoice+" beats "+compchoice;
     }
     else{
+        pyc.classList.add("lose");
         compscore++;
         return "YOU LOSE!! "+compchoice+" beats "+userchoice;
     }
